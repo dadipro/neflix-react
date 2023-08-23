@@ -1,0 +1,120 @@
+.section1 {
+  background: url("../images/background.png") rgba(0, 0, 0, 0.726);
+  height: 650px;
+  border-bottom: 10px solid rgb(54, 54, 54);
+  /* Add these CSS styles to your existing stylesheet */
+  /* Styles for the subscription section */
+}
+.section1 .nav-netflix {
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .nav-netflix .netflix-logo {
+  width: 170px;
+  margin-top: -10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.section1 .nav-netflix .nav-second {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.section1 .nav-netflix .nav-second #language {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  width: 80px;
+  height: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section1 .nav-netflix .nav-second .sign-in .btn {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.section1 .subscription {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.section1 .subscription h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.section1 .subscription span {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+}
+.section1 .subscription-2 {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 .input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+.section1 .submitbtn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.section1 .rightbtn {
+  margin-left: 10px;
+}
+.section1 .submitbtn:hover {
+  background-color: #c40812;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-netflix {
+    width: 70%;
+    margin-left: -28px;
+  }
+  .netflix-logo {
+    position: relative;
+    width: 70%;
+    top: -6%;
+    left: 5%;
+  }
+  .nav-second {
+    position: relative;
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .subscription span {
+    width: auto;
+    max-width: 90%;
+  }
+  .subscription-2 .submitbtn {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0px;
+    height: 37px;
+  }
+  .subscription-2 .submitbtn .rightbtn {
+    top: 0;
+  }
+}/*# sourceMappingURL=navbar.css.map */

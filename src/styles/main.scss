@@ -1,0 +1,617 @@
+.main-page{
+    display: flex;
+    border-bottom: 10px solid rgb(54, 54, 54);
+    
+    .text{
+        margin-top: 80px;
+        margin-left: 100px;
+        width: 600px;
+    }
+
+    .player{
+        margin-top: 30px;
+        margin-left: 200px;
+
+        img{
+            margin-left: 0px;
+        }
+    }
+    
+    .tv-video{
+        width: 285px;
+        border: none;
+        position: relative;
+        top: -51.4%;
+        left: 10%;
+        
+    }
+}
+
+.main-2{
+    display: flex;
+    border-bottom: 10px solid rgb(54, 54, 54);
+
+    .player-2{
+
+        .card-player{
+            display: flex;
+            position: relative;
+            top: -25%;
+            left: 20%;
+            border: 1px solid;
+            border-radius: 10px;
+            width: 300px;
+            height: 100px;
+            background-color: black;
+
+            .card-text{
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+                margin-left: 20px;
+                gap: 5px;
+
+                span{
+                    font-family: sans-serif;
+                }
+            }
+
+            .download{
+                position: relative;
+                top: 30%;
+                left: 20%;
+            }
+        }
+    }
+}
+
+.text-2{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+
+.main-3{
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+    border-bottom: 10px solid rgb(54, 54, 54);
+
+    .text-3{
+        margin-left: 80px;
+    }
+
+    .device-video{
+        width: 300px;
+    }
+
+    .player-4{
+        margin-top: 20px;
+        margin-right: 100px;
+        
+        .device-video{
+            border-radius: 10px;
+        }
+    }
+}
+
+
+.main-4{
+    display: flex;
+    border-bottom: 10px solid rgb(54, 54, 54);
+
+    .image-5{
+        margin: 30px 30px;
+        margin-left: 100px;
+    }
+
+    .text-5{
+        margin-top: 100px;
+    }
+}
+
+.main-5{
+
+    .accordions{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+    
+        .acc-1{
+            background-color: rgb(54, 54, 54);
+            width: 1000px;
+            
+    
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                margin-right: 20px;
+    
+    
+                button{
+                    
+                    background-color: transparent;
+                    border: none;
+                    color:  white;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .acc-text-1{
+                border: 1px solid black;
+                p{
+                    margin-left: 20px;
+
+                }
+    
+            }
+    
+            
+            
+        }
+    
+        
+    
+    
+        .acc-2{
+            background-color: rgb(54, 54, 54);
+            width: 1000px;
+    
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                margin-right: 20px;
+    
+    
+                button{
+                    
+                    background-color: transparent;
+                    border: none;
+                    color:  white;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .acc-text-2{
+                border: 1px solid black;
+    
+                p{
+                    margin-left: 20px;
+                }
+    
+            }
+        }
+    
+        .acc-3{
+            background-color: rgb(54, 54, 54);
+            width: 1000px;
+    
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                margin-right: 20px;
+    
+    
+                button{
+                    
+                    background-color: transparent;
+                    border: none;
+                    color:  white;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .acc-text-3{
+                border: 1px solid black;
+                
+    
+                p{
+                    margin-left: 20px;
+                }
+    
+            }
+        }
+    
+    
+        .acc-4{
+            background-color: rgb(54, 54, 54);
+            width: 1000px;
+    
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                margin-right: 20px;
+    
+    
+                button{
+                    
+                    background-color: transparent;
+                    border: none;
+                    color:  white;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .acc-text-4{
+                border: 1px solid black;
+                
+    
+                p{
+                    margin-left: 20px;
+                }
+    
+            }
+        }
+    
+        .acc-5{
+            background-color: rgb(54, 54, 54);
+            width: 1000px;
+    
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                margin-right: 20px;
+    
+    
+                button{
+                    
+                    background-color: transparent;
+                    border: none;
+                    color:  white;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .acc-text-5{
+                border: 1px solid black;
+                
+    
+                p{
+                    margin-left: 20px;
+                }
+    
+            }
+        }
+    
+    
+        .acc-6{
+            background-color: rgb(54, 54, 54);
+            width: 1000px;
+    
+            .title{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                margin-right: 20px;
+    
+    
+                button{
+                    
+                    background-color: transparent;
+                    border: none;
+                    color:  white;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .acc-text-6{
+                border: 1px solid black;
+                
+    
+                p{
+                    margin-left: 20px;
+                }
+    
+            }
+        }
+    }
+}
+
+.main-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    border-bottom: 10px solid rgb(54, 54, 54);
+
+    span{
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .last-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 30px;
+
+        input{
+            width: 400px;
+            height: 40px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid rgb(54, 54, 54);
+            border-radius: 5px;
+        }
+
+        button{
+            background-color: red;
+            height: 45px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            font-size: 20px;
+            color: white;
+
+            .last-btn{
+                position: relative;
+                top: 4px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .main-page {
+        .text {
+          margin-left: 30px; 
+          width: 350px;
+          text-align: center; 
+        }
+    
+        .player {
+          position: static; 
+          margin: 40px auto; 
+    
+          img {
+            margin-left: 20px; 
+          }
+    
+          .tv-video {
+            position: relative;
+            margin-top: 20px;
+            margin-left: 50%;
+            top: 2%;
+            left: 19%;
+          }
+        }}
+
+    .main-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .player-2{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+
+           img{
+             margin-left: -150px;
+           }
+
+           .card-player{
+             margin-right: 210px;
+           }
+        }
+        
+        .text-2{
+            margin-left: 20px;
+            font-size: 15px;
+        }
+    }
+
+    .main-3{
+        .text-3 h1 {
+            font-size: 25px;
+            margin-left: -70px;
+            text-align: center;
+        }
+    
+        .text-3 p {
+            font-size: 16px;
+            margin-left: -70px;
+            text-align: center;
+        }
+    
+        .device-video {
+            max-width: 300px;
+            margin-left: 50px;
+        }
+    }
+
+    .main-4{
+        display: flex;
+        flex-direction: column;
+
+        .image-5 img {
+            max-width: 300px;
+            margin-left: -70px;
+        }
+       
+        .text-5 h1 {
+            font-size: 25px;
+            margin-left: -50px;
+        }
+    
+        .text-5 p {
+            font-size: 16px;
+            max-width: 300px;
+            margin-left: -50px;
+        }
+    }
+
+    .main-5{
+        gap: 10px;
+        h1{
+            width: 80%;
+            margin-left: 20px;
+        }
+
+        .accordions{
+            display: block;
+            margin-left: 30px;
+            padding: 10px;
+            
+            .acc-1{
+                width: 90%;
+            }
+
+            .acc-2{
+                width: 90%;
+            }
+
+            .acc-3{
+                width: 90%;
+            }
+
+            .acc-4{
+                width: 90%;
+            }
+
+            .acc-5{
+                width: 90%;
+            }
+
+            .acc-6{
+                width: 90%;
+            }
+        }
+    }
+
+    .main-6{
+        width: 100%;
+        display: block;
+        
+        span{
+            margin-left: 30px;
+            display: block;
+            width: 80%;
+        
+        }
+
+        .last-main{
+            display: block;
+
+            input{
+                width: 80%;
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+
+            button{
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 810px){
+   .main-page{
+     display: block;
+     h1{
+        text-align: center;
+     }
+
+     p{
+        text-align: center;
+     }
+
+     .player{
+        .tv-video{
+            margin-top: -250px;
+            margin-left: -5px;
+            margin-bottom: 100px;
+        }
+     }
+   }
+
+   .main-2{
+     display: block;
+
+     .player-2{
+        margin-left: 150px;
+
+        .card-player{
+            margin-left: -40px;
+        }
+     }
+
+     .text-2{
+        width: 650px;
+        margin-left: 75px;
+     }
+   }
+
+   .main-3{
+       display: block;
+       height: 600px;
+
+       .player-4{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 100px;
+         margin-left: 70px;
+
+         .device-video{
+            width: 500px;
+         }
+
+       }
+   }
+
+   .main-4{
+     display: block;
+
+     .image-5{
+        margin-left: 150px;
+     }
+
+       .text-5{
+         margin-left: 100px;
+       }
+   }
+
+   .main-5{
+    .accordions{
+        .acc-1,
+        .acc-2,
+        .acc-3,
+        .acc-4,
+        .acc-5,
+        .acc-6{
+            width: 80%;
+        }
+
+        .acc-text-1,
+        .acc-text-2,
+        .acc-text-3,
+        .acc-text-4,
+        .acc-text-5,
+        .acc-text-6{
+        }
+    }
+   }
+}
